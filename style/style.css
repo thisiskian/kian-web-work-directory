@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+
+@font-face{
+    font-family: Time;
+    src: url('../fonts/Time.ttf')
+    format:'truetype',
+    
+    font-family: Tahoma;
+    src: url('../fonts/Tahoma.ttf')
+    format:'truetype',
+}
+body{
+    
+    background-color: lightgray;
+    font-family: Time;
+    text-align: center;
+    
+}
+
+.navbar{
+    
+    width: 100%;
+    height: 35px;   
+    text-align: center;
+}
+.nav{
+    
+    display: inline-block;
+}
+
+.navbar a{
+    
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 48px ;
+    margin-right: 5px;
+    color: white;
+    
+    
+}
+
+.navbar a:hover{
+    
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 48px ;
+    margin-right: 5px;
+    color: darkorange;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0.3)
+    
+    
+}
+.container1{
+    
+    
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/heading.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+    
+    
+    
+    
+}
+
+.container1 h1{
+    
+    margin-top: 100px;
+    padding-top: 100px;
+    text-shadow: 25px 18px 15px;
+    
+    
+}
+.container1 p{
+    
+    display: inline-block;
+    margin-top: 30px;
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    
+    
+    
+    
+}
+h1 span{
+    
+    color: darkorange;
+
+}
+.container2{
+    
+    width: 1470px;
+    height: 650px;
+    background-color: darkgray;
+    text-align: center;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+    
+}
+.member1{
+    
+    display: inline-block;
+    height: 550px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 2px;
+    margin: 20px;
+    box-shadow: 0 0 15px #bbbbbb;
+
+    
+}
+.member2{
+    
+    display: inline-block;
+    height: 550px;
+    width: 300px;
+    box-shadow: 0 0 15px #bbbbbb;
+    border: 5px solid black;
+    border-radius: 4px;
+    margin: 20px
+    
+    
+}
+.memberpic{
+    
+    width: 100%;
+    height: 250px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    
+    
+        
+    } 
+.memberbio{
+    text-indent: 10px;
+    display: inline-block;
+    width: 80%;
+    text-align: justify;
+    padding: 10px;
+}
+
+.membername{
+    
+    display: inline-block;
+    width: 250px;
+    font-size: 25px
+}
+
+
+.container3{
+    
+    background-image: url(../images/second-wall.jpg);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 720px;
+    text-align: center;
+    
+}
+.circle{
+    
+    display: inline-block;
+    background-color: rgba(70,70,70,0.8);
+    width: 450px;
+    height: 450px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin-top: 160px;
+    
+}
+.circledes{
+    
+    
+    padding-top: 50px;
+    
+}
+.circle p{
+    
+    padding-top: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.circle h3{
+    
+    font-size: 20px;
+    text-shadow: 3px 5px 4px darkorange;
+    color: darkblue
+}
+
+.footer{
+    
+    background-color: darkgray;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    background-attachment: fixed;
+    margin: 10px 0px;
+    
+} .footer img{
+    
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+
+.footer a{
+    
+    
+}
+.circle p{
+    
+    font-family: Tahoma;
+}
+
+
+.linkedin{
+    
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0px 150px;
+}
